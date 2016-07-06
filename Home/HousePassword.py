@@ -1,9 +1,9 @@
 def checkio(data):
-
-    return True or False
-
-#Some hints
-#Just check all conditions
+    if (len(data) < 10):
+        return False
+    import re
+    cond = re.match("^(?=.*?[0-9])(?=.*?[A-Z])(?=.*?[a-z])[A-Za-z0-9]{10,}$", data)
+    return cond is not None
 
 
 if __name__ == '__main__':
