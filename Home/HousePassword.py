@@ -15,4 +15,3 @@ if __name__ == '__main__':
     assert checkio(u'123456123456') == False, "5th example"
     assert checkio(u'QwErTy911poqqqq') == True, "6th example"
     assert checkio(u'QwErTy9poqqqq') == True, "7th example"
-    assert checkio(u'QwErTy9poqqqq') == True, "8th example"
